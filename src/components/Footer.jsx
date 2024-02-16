@@ -22,7 +22,12 @@ const Footer = () => {
                         <p>Facebook : <a href="https://www.facebook.com/profile.php?id=100070150393419 "><span className='underline'>Click here</span></a></p>
                     </div>
                 </nav>
+
             </footer>
+            <div className='bg-color flex justify-between p-2 py-2'>
+                <p> &copy; 2024 All right reserved by Ashraf Hossain</p>
+                <p>Design & Maintained by <span className='font-semibold hover:underline' style={{ color: 'rgba(31, 52, 122, 1)' }}>Adventure Soft. LTD</span> </p>
+            </div>
         </div>
     );
 };

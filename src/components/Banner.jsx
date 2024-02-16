@@ -1,13 +1,12 @@
 import React, { useEffect } from 'react';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
-import img1 from '../assets/img/prod2.jpg'
-import img2 from '../assets/img/prod1.jpg'
-import img3 from '../assets/img/prod3.jpg'
+import img1 from '../assets/img/Education.jpg'
+import img2 from '../assets/img/Community.jpg'
+import img3 from '../assets/img/Economy.png'
 import AOS from 'aos';
 import 'aos/dist/aos.css'
 import { motion } from "framer-motion";
-import { Link } from 'react-router-dom';
 
 const Banner = () => {
     useEffect(() => {
@@ -50,30 +49,30 @@ const Banner = () => {
         >
             <div id='main'>
                 <Carousel autoPlay={true} showArrows={false} infiniteLoop={true} interval={6000} showThumbs={false} showStatus={false} transitionTime={1500} className='text-center ' >
-                    <div className="relative w-full h-[60vh] md:h-[50vh] lg:h-[85vh]">
+                    <div className="relative w-full h-[65vh] md:h-[50vh] lg:h-[90vh]">
                         <img src={img1} className="w-full h-full" />
-                        <div className=" absolute h-full flex items-center gap-4 left-0 top-0 bg-gradient-to-r from-[#111111ec] to-[#4140408c]">
-                            <div className='text-white text-center w-full px-4 md:px-8 pt-20'>
+                        <div className=" absolute h-full flex items-center gap-4 left-0 top-0 bg-gradient-to-r from-[#0b0b0baf] to-[#2c2c2c8c]">
+                            <div className='text-white text-center w-full px-5 md:px-8 pt-20'>
                                 <h2 className='text-xl underline'>Some Quote From Him</h2>
-                                <p className='text-4xl md:text-5xl pt-3 playfair font-semibold'>Rising Together, Empowering Forever: Women's Strength, Society's Progress</p>
+                                <p className='text-3xl md:text-4xl lg:text-5xl pt-3 playfair font-semibold '>The function of education is to teach one to think intensively and to think critically. Intelligence plus character - that is the goal of true education.</p>
                             </div>
                         </div>
                     </div>
-                    <div className="relative w-full h-[60vh] md:h-[50vh] lg:h-[85vh]">
+                    <div className="relative w-full h-[65vh] md:h-[50vh] lg:h-[90vh]">
                         <img src={img2} className="w-full h-full" />
-                        <div className=" absolute h-full flex items-center gap-4 left-0 top-0 bg-gradient-to-r from-[#111111ec] to-[#4140408c]">
-                            <div className='text-white text-center w-full px-4 md:px-8 pt-20'>
-                                <h2 className='text-xl underline'>Some Quote From Him</h2>
-                                <p className='text-4xl md:text-5xl pt-3 playfair font-semibold'>Rising Together, Empowering Forever: Women's Strength, Society's Progress</p>
+                        <div className=" absolute h-full flex items-center gap-4 left-0 top-0 bg-gradient-to-r from-[#0b0b0baf] to-[#2c2c2c8c]">
+                            <div className='text-white text-center w-full px-5 md:px-8 pt-20'>
+                                <h2 className='text-xl underline'>Community Engagement</h2>
+                                <p className='text-3xl md:text-4xl lg:text-5xl pt-3 playfair font-semibold'>Never doubt that a small group of thoughtful, committed citizens can change the world; indeed, it's the only thing that ever has.</p>
                             </div>
                         </div>
                     </div>
-                    <div className="relative w-full h-[60vh] md:h-[50vh] lg:h-[85vh]">
+                    <div className="relative w-full h-[65vh] md:h-[50vh] lg:h-[90vh]">
                         <img src={img3} className="w-full h-full" />
-                        <div className=" absolute h-full flex items-center gap-4 left-0 top-0 bg-gradient-to-r from-[#111111ec] to-[#4140408c]">
-                            <div className='text-white text-center w-full px-4 md:px-8 pt-20'>
-                                <h2 className='text-xl underline'>Some Quote From Him</h2>
-                                <p className='text-4xl md:text-5xl pt-3 playfair font-semibold'>Rising Together, Empowering Forever: Women's Strength, Society's Progress</p>
+                        <div className=" absolute h-full flex items-center gap-4 left-0 top-0 bg-gradient-to-r from-[#0b0b0baf] to-[#2c2c2c8c]">
+                            <div className='text-white text-center w-full px-5 md:px-8 pt-20'>
+                                <h2 className='text-xl underline'>Economic Empowerment</h2>
+                                <p className='text-3xl md:text-4xl lg:text-5xl pt-3 playfair font-semibold '>Cultivating economic empowerment unleashes the potential for prosperity, fostering independence, dignity, and resilience within communities.</p>
                             </div>
                         </div>
                     </div>

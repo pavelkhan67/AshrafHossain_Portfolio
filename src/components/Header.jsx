@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import img from "../assets/img/logo1.jpg"
+import img from "../assets/img/logo2.png"
 
 const Header = () => {
     const [scrollPosition, setScrollPosition] = useState(0);
@@ -17,6 +17,8 @@ const Header = () => {
     }, []);
 
     const navbarPadding = scrollPosition > 100 ? 'py-0.5' : 'py-1';
+    const background = scrollPosition > 180 ? 'bg-color2' : 'bg-color text-white';
+    const bg = scrollPosition > 100 ? 'bg-color2' : 'bg-color';
 
     const scrollToSection = (sectionId) => {
         const section = document.getElementById(sectionId);
@@ -87,11 +89,11 @@ const Header = () => {
     };
 
     return (
-        <div className={`flex justify-between transition bg-color px-1 fixed z-10 w-full max-w-[1200px]  ${navbarPadding}`} >
+        <div className={`flex justify-between transition px-1 fixed z-10 w-full max-w-[1200px]  ${navbarPadding} ${background}`} >
             <div className="flex items-center">
                 <div className="dropdown">
-                    <label tabIndex={0} className="btn  lg:hidden">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="3" stroke="currentColor" class="w-8 h-8">
+                    <label tabIndex={0} className="bg-color lg:hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="3" stroke="currentColor" class="w-10 h-8 md:h-10 ">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
                         </svg>
 
@@ -132,7 +134,7 @@ const Header = () => {
                             <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
                         </svg></span>
                         </a>
-                        <ul className="hidden absolute top-6 text-left ps-2 -left-3 space-y-3 pt-6 pb-3 bg-color group-hover:block z-20 w-40">
+                        <ul className={`hidden absolute top-6 text-left ps-2 -left-3 space-y-3 pt-6 pb-3 group-hover:block z-20 w-40 ${bg}`}>
                             <li><a className="" href='#' onClick={(event) => handleClick(event, 'training')}>Domestic</a></li>
                             <li><a className="" href='#' onClick={(event) => handleClick(event, 'training')}>International</a></li>
                         </ul>
