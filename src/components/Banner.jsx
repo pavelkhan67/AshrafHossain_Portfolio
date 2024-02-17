@@ -53,7 +53,7 @@ const Banner = () => {
                         <img src={img1} className="w-full h-full" />
                         <div className=" absolute h-full flex items-center gap-4 left-0 top-0 bg-gradient-to-r from-[#0b0b0baf] to-[#2c2c2c8c]">
                             <div className='text-white text-center w-full px-5 md:px-8 pt-16'>
-                                <h2 className='text-xl underline'>Some Quote From Him</h2>
+                                <h2 className='text-xl underline'>The Essence of True Education</h2>
                                 <p className='text-3xl md:text-4xl lg:text-5xl pt-3 playfair font-semibold '>The function of education is to teach one to think intensively and to think critically. Intelligence plus character - that is the goal of true education.</p>
                             </div>
                         </div>

@@ -18,7 +18,7 @@ const Footer = () => {
                     </div>
                     <div className='text-start space-y-2'>
                         <p>Cell: +880 2 48954611</p>
-                        <p>Email : <a href="mailto:user@gmail.com">usermail@gmail.com Lorem ipsum dolor sit amet.</a> </p>
+                        <p>Email : <a href="mailto:user@gmail.com">usermail@gmail.com </a> </p>
                         <p>Facebook : <a href="https://www.facebook.com/profile.php?id=100070150393419 "><span className='underline'>Click here</span></a></p>
                     </div>
                 </nav>

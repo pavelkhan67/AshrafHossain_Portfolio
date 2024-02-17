@@ -124,7 +124,7 @@ const Header = () => {
 
             <div className="flex flex-2 items-center">
                 <div className='flex lg:hidden'>
-                    <img className='w-52 rounded-md h-12' src={img} alt="" />
+                    <img className='w-44 rounded-md h-11' src={img} alt="" />
                 </div>
                 <ul className="men hidden lg:flex font-semibold gap-4" >
                     <li><a className="" href='#' onClick={(event) => handleClick(event, 'about')}>About</a></li>
