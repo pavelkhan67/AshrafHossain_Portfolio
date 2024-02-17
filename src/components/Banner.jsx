@@ -49,7 +49,7 @@ const Banner = () => {
         >
             <div id='main'>
                 <Carousel autoPlay={true} showArrows={false} infiniteLoop={true} interval={6000} showThumbs={false} showStatus={false} transitionTime={1500} className='text-center ' >
-                    <div className="relative w-full h-[65vh] md:h-[52vh] lg:h-[93vh]">
+                    <div className="relative w-full h-[70vh] md:h-[55vh] lg:h-[95vh]">
                         <img src={img1} className="w-full h-full" />
                         <div className=" absolute h-full flex items-center gap-4 left-0 top-0 bg-gradient-to-r from-[#0b0b0baf] to-[#2c2c2c8c]">
                             <div className='text-white text-center w-full px-5 md:px-8 pt-16'>
@@ -58,7 +58,7 @@ const Banner = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="relative w-full h-[65vh] md:h-[52vh] lg:h-[93vh]">
+                    <div className="relative w-full h-[70vh] md:h-[55vh] lg:h-[95vh]">
                         <img src={img2} className="w-full h-full" />
                         <div className=" absolute h-full flex items-center gap-4 left-0 top-0 bg-gradient-to-r from-[#0b0b0baf] to-[#2c2c2c8c]">
                             <div className='text-white text-center w-full px-5 md:px-8 pt-16'>
@@ -67,7 +67,7 @@ const Banner = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="relative w-full h-[65vh] md:h-[52vh] lg:h-[93vh]">
+                    <div className="relative w-full h-[70vh] md:h-[55vh] lg:h-[95vh]">
                         <img src={img3} className="w-full h-full" />
                         <div className=" absolute h-full flex items-center gap-4 left-0 top-0 bg-gradient-to-r from-[#0b0b0baf] to-[#2c2c2c8c]">
                             <div className='text-white text-center w-full px-5 md:px-8 pt-16'>
