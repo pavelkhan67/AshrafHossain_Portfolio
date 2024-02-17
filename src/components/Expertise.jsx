@@ -4,7 +4,7 @@ import img from "../assets/Expertise.json"
 
 const Expertise = () => {
     return (
-        <div className='pt-10 px-1 md:px-0' id='expertise' >
+        <div className='pt-7 md:pt-10 px-1 md:px-0' id='expertise' >
             <div className='bg-gray-200 py-5'>
                 <div className='md:grid grid-cols-3'>
                     <div className="w-full order-2" style={{ height: '300px', width: '100%' }}>

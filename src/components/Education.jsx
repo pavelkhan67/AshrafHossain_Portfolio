@@ -4,7 +4,7 @@ import img from "../assets/Education.json"
 
 const Education = () => {
     return (
-        <div className='pt-10' id='education' >
+        <div className='pt-7 md:pt-10' id='education' >
             <div className='bg-gray-200 py-5'>
                 <div className='md:grid grid-cols-3'>
                     <div className="w-full" style={{ height: '300px', width: '100%' }}>

@@ -49,28 +49,28 @@ const Banner = () => {
         >
             <div id='main'>
                 <Carousel autoPlay={true} showArrows={false} infiniteLoop={true} interval={6000} showThumbs={false} showStatus={false} transitionTime={1500} className='text-center ' >
-                    <div className="relative w-full h-[65vh] md:h-[50vh] lg:h-[90vh]">
+                    <div className="relative w-full h-[65vh] md:h-[52vh] lg:h-[93vh]">
                         <img src={img1} className="w-full h-full" />
                         <div className=" absolute h-full flex items-center gap-4 left-0 top-0 bg-gradient-to-r from-[#0b0b0baf] to-[#2c2c2c8c]">
-                            <div className='text-white text-center w-full px-5 md:px-8 pt-20'>
+                            <div className='text-white text-center w-full px-5 md:px-8 pt-16'>
                                 <h2 className='text-xl underline'>Some Quote From Him</h2>
                                 <p className='text-3xl md:text-4xl lg:text-5xl pt-3 playfair font-semibold '>The function of education is to teach one to think intensively and to think critically. Intelligence plus character - that is the goal of true education.</p>
                             </div>
                         </div>
                     </div>
-                    <div className="relative w-full h-[65vh] md:h-[50vh] lg:h-[90vh]">
+                    <div className="relative w-full h-[65vh] md:h-[52vh] lg:h-[93vh]">
                         <img src={img2} className="w-full h-full" />
                         <div className=" absolute h-full flex items-center gap-4 left-0 top-0 bg-gradient-to-r from-[#0b0b0baf] to-[#2c2c2c8c]">
-                            <div className='text-white text-center w-full px-5 md:px-8 pt-20'>
+                            <div className='text-white text-center w-full px-5 md:px-8 pt-16'>
                                 <h2 className='text-xl underline'>Community Engagement</h2>
                                 <p className='text-3xl md:text-4xl lg:text-5xl pt-3 playfair font-semibold'>Never doubt that a small group of thoughtful, committed citizens can change the world; indeed, it's the only thing that ever has.</p>
                             </div>
                         </div>
                     </div>
-                    <div className="relative w-full h-[65vh] md:h-[50vh] lg:h-[90vh]">
+                    <div className="relative w-full h-[65vh] md:h-[52vh] lg:h-[93vh]">
                         <img src={img3} className="w-full h-full" />
                         <div className=" absolute h-full flex items-center gap-4 left-0 top-0 bg-gradient-to-r from-[#0b0b0baf] to-[#2c2c2c8c]">
-                            <div className='text-white text-center w-full px-5 md:px-8 pt-20'>
+                            <div className='text-white text-center w-full px-5 md:px-8 pt-16'>
                                 <h2 className='text-xl underline'>Economic Empowerment</h2>
                                 <p className='text-3xl md:text-4xl lg:text-5xl pt-3 playfair font-semibold '>Cultivating economic empowerment unleashes the potential for prosperity, fostering independence, dignity, and resilience within communities.</p>
                             </div>

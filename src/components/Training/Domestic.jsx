@@ -9,7 +9,7 @@ const Domestic = () => {
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum similique necessitatibus eaque, corporis vitae quam officia! Non vel saepe delectus?</p>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum similique necessitatibus eaque, corporis vitae quam officia! Non vel saepe delectus?</p>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum similique necessitatibus eaque, corporis vitae quam officia! Non vel saepe delectus?</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum similique necessitatibus eaque, corporis vitae quam officia! Non vel saepe delectus?</p>
+            
         </div>
     );
 };

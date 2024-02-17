@@ -4,7 +4,7 @@ import img from "../assets/Publication.json"
 
 const Publication = () => {
     return (
-        <div className='pt-10 px-1 md:px-0' id='publication' >
+        <div className='pt-7 md:pt-10 px-1 md:px-0' id='publication' >
             <div className='content bg-gradient-to-r from-[#fafafaad] to-[#fafafaad] px-1 py-5'>
                 <div className='md:grid grid-cols-3'>
                     <div className="w-full" style={{ height: '300px', width: '100%' }}>

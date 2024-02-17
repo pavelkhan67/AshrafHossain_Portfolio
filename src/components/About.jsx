@@ -5,7 +5,7 @@ import Fade from 'react-reveal/Fade';
 
 const About = () => {
     return (
-        <div className='pt-10 ' id='about'>
+        <div className='pt-7 md:pt-10 ' id='about'>
             <div className='content bg-gradient-to-r from-[#fafafaad] to-[#fafafaad]'>
                 <div className='md:grid grid-cols-3 px-1 py-5'>
                     {/* On small devices, the image appears first */}
