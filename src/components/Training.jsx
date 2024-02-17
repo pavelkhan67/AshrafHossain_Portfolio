@@ -10,7 +10,7 @@ const Training = () => {
             <Lottie animationData={img} loop={true} className="lottie-background" />            
             <div className='content bg-gradient-to-r from-[#fafafaad] to-[#fafafaad] px-1 pt-4 pb-5'>
             <h2 className='text-3xl md:text-4xl font-semibold pb-4 md:pt-0' style={{ color: 'rgba(31, 52, 122, 1)' }}>Training</h2>
-                <div className=' md:grid grid-cols-2 text-start'>
+                <div className=' md:grid grid-cols-2'>
                     <div className='flex items-center'>
                         <Domestic></Domestic>
                     </div>

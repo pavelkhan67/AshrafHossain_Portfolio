@@ -28,8 +28,8 @@ const About = () => {
                             repeat={Infinity} // Repeat this Animation Sequence infinitely
                             reset={true}
                         />
-                        <div className='ps-1 lg:ps-0 text-base'>
-                            <Fade left><p className='pt-2 text-blue-400'>Deputy Secretary </p></Fade>
+                        <div className='ps-1 lg:ps-0 text-xl md:text-base'>
+                            <Fade left><p className='pt-2 text-blue-400'>Deputy Secretary, </p></Fade>
                             <Fade left><p className='pb-2 text-blue-400'> Government of the People's Republic of Bangladesh.</p></Fade>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam sed ex veritatis harum architecto aliquid praesentium? Quos libero non accusamus, optio sapiente asperiores, pariatur eius aperiam, corrupti explicabo nostrum fuga! </p>
 
